@@ -1,4 +1,5 @@
 # VTU-SGPA-CALCULATOR
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Adarsh232001/VTU-SGPA-CALCULATOR)<br/>
 Language used:- 
         [Python](https://www.python.org/downloads/)<br/>
 Tools used:-<br/>
