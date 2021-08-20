@@ -39,6 +39,7 @@ A Graphical User Interface to calculate SGPA with Grades and Marks for VTU Stude
 ## Built With
 
 Language used:- [Python](https://www.python.org/downloads/)
+
 Tools used:- [QT5](https://doc.qt.io/qt-5/), [Pyinstaller](https://www.pyinstaller.org/)
 
 ## Getting Started
