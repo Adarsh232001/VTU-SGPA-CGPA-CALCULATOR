@@ -2020,7 +2020,7 @@ class Ui_MainWindow(object):
         self.pushButton_38.clicked.connect(self. sgpa_two_seven)
         self.pushButton_33.clicked.connect(self. sgpa_two_eight)
 
-
+#opens the link to the github repository
     def openlink(self):
             webbrowser.open('https://github.com/Adarsh232001/VTU-SGPA-CALCULATOR')
 
@@ -2717,6 +2717,7 @@ class Ui_MainWindow(object):
         ci_earned.append(ci_e_7)
         calculate_cgpa(self)
 
+ # final cgpa calculation from sum of ci*gi / sum of ci(earned)
 def calculate_cgpa(self):
     try:
 
@@ -2731,6 +2732,7 @@ def calculate_cgpa(self):
         msg.setWindowTitle("Error")
         msg.exec_() 
 
+ #cgpa with grades part - 01
 def calculate_cgpa_with_grades(self, lcdNumber_1):
     sum_of_ci_gi = 0
     sum_of_credits_earned = sum(credits_earned)
@@ -2756,7 +2758,7 @@ def calculate_cgpa_with_grades(self, lcdNumber_1):
                 msg.exec_()       
 
 
-
+# check that the grade is a valid or not
 def check_grade(self, grade):
     if(grade!=0):
         if(grade<11):
@@ -2788,6 +2790,7 @@ def marks_to_grades():
                 elif(marks<40):
                         grade_points.append(0)
 
+                        
 def calculate_with_grades(self, lcdNumber):
     sum_sgpa = 0
     sum_of_credits = sum(credits)
