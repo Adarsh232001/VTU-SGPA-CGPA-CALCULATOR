@@ -1991,14 +1991,14 @@ class Ui_MainWindow(object):
         self.pushButton_17.clicked.connect(self. one_and_two)
         self.pushButton_18.clicked.connect(self. three_and_four)
         self.pushButton_19.clicked.connect(self. three_and_four)
-        self.pushButton_20.clicked.connect(self. five_and_six)
-        self.pushButton_21.clicked.connect(self. five_and_six)
+        self.pushButton_20.clicked.connect(self. five)
+        self.pushButton_21.clicked.connect(self. six)
         self.pushButton_26.clicked.connect(self. one_and_two_)
         self.pushButton_25.clicked.connect(self. one_and_two_)
         self.pushButton_31.clicked.connect(self. three_and_four_)
         self.pushButton_27.clicked.connect(self. three_and_four_)
-        self.pushButton_24.clicked.connect(self. five_and_six_)
-        self.pushButton_28.clicked.connect(self. five_and_six_)
+        self.pushButton_24.clicked.connect(self. five_)
+        self.pushButton_28.clicked.connect(self. six_)
         self.pushButton_29.clicked.connect(self. cgpa_one_seven)
         self.pushButton_30.clicked.connect(self. cgpa_one_eight)
         self.pushButton_22.clicked.connect(self. cgpa_two_seven)
@@ -2007,20 +2007,20 @@ class Ui_MainWindow(object):
         self.pushButton_47.clicked.connect(self. sgpa_one_one_and_two)
         self.pushButton_42.clicked.connect(self. sgpa_one_three_and_four)
         self.pushButton_44.clicked.connect(self. sgpa_one_three_and_four)
-        self.pushButton_40.clicked.connect(self. sgpa_one_five_and_six)
-        self.pushButton_43.clicked.connect(self. sgpa_one_five_and_six)
+        self.pushButton_40.clicked.connect(self. sgpa_one_five)
+        self.pushButton_43.clicked.connect(self. sgpa_one_six)
         self.pushButton_46.clicked.connect(self. sgpa_one_seven)
         self.pushButton_41.clicked.connect(self. sgpa_one_eight)
         self.pushButton_37.clicked.connect(self. sgpa_two_one_and_two)
         self.pushButton_39.clicked.connect(self. sgpa_two_one_and_two)
         self.pushButton_34.clicked.connect(self. sgpa_two_three_and_four)
         self.pushButton_36.clicked.connect(self. sgpa_two_three_and_four)
-        self.pushButton_32.clicked.connect(self. sgpa_two_five_and_six)
-        self.pushButton_35.clicked.connect(self. sgpa_two_five_and_six)
+        self.pushButton_32.clicked.connect(self. sgpa_two_five)
+        self.pushButton_35.clicked.connect(self. sgpa_two_six)
         self.pushButton_38.clicked.connect(self. sgpa_two_seven)
         self.pushButton_33.clicked.connect(self. sgpa_two_eight)
 
-#opens the link to the github repository
+
     def openlink(self):
             webbrowser.open('https://github.com/Adarsh232001/VTU-SGPA-CALCULATOR')
 
@@ -2066,7 +2066,7 @@ class Ui_MainWindow(object):
         self.comboBox_56.setCurrentIndex(2)
         self.comboBox_48.setCurrentIndex(1)
 
-    def five_and_six(self):
+    def five(self):
         self.comboBox_2.setCurrentIndex(3)
         self.comboBox_4.setCurrentIndex(4)
         self.comboBox_6.setCurrentIndex(4)
@@ -2077,7 +2077,17 @@ class Ui_MainWindow(object):
         self.comboBox_16.setCurrentIndex(2)
         self.comboBox_18.setCurrentIndex(1)
 
-    def five_and_six_(self):
+    def six(self):
+        self.comboBox_2.setCurrentIndex(4)
+        self.comboBox_4.setCurrentIndex(4)
+        self.comboBox_6.setCurrentIndex(4)
+        self.comboBox_8.setCurrentIndex(3)
+        self.comboBox_10.setCurrentIndex(3)
+        self.comboBox_12.setCurrentIndex(2)
+        self.comboBox_14.setCurrentIndex(2)
+        self.comboBox_16.setCurrentIndex(2)
+
+    def five_(self):
         self.comboBox_46.setCurrentIndex(3)
         self.comboBox_44.setCurrentIndex(4)
         self.comboBox_49.setCurrentIndex(4)
@@ -2087,6 +2097,16 @@ class Ui_MainWindow(object):
         self.comboBox_52.setCurrentIndex(2)
         self.comboBox_56.setCurrentIndex(2)
         self.comboBox_48.setCurrentIndex(1)
+
+    def six_(self):
+        self.comboBox_46.setCurrentIndex(4)
+        self.comboBox_44.setCurrentIndex(4)
+        self.comboBox_49.setCurrentIndex(4)
+        self.comboBox_54.setCurrentIndex(3)
+        self.comboBox_51.setCurrentIndex(3)
+        self.comboBox_53.setCurrentIndex(2)
+        self.comboBox_52.setCurrentIndex(2)
+        self.comboBox_56.setCurrentIndex(2)
 
     def sgpa_one_one_and_two(self):
         self.comboBox.setCurrentIndex(4)
@@ -2109,7 +2129,7 @@ class Ui_MainWindow(object):
         self.comboBox_15.setCurrentIndex(2)
         self.comboBox_17.setCurrentIndex(1)
 
-    def sgpa_one_five_and_six(self):
+    def sgpa_one_five(self):
         self.comboBox.setCurrentIndex(3)
         self.comboBox_3.setCurrentIndex(4)
         self.comboBox_5.setCurrentIndex(4)
@@ -2118,7 +2138,17 @@ class Ui_MainWindow(object):
         self.comboBox_11.setCurrentIndex(3)
         self.comboBox_13.setCurrentIndex(2)
         self.comboBox_15.setCurrentIndex(2)
-        self.comboBox_17.setCurrentIndex(1)           
+        self.comboBox_17.setCurrentIndex(1) 
+
+    def sgpa_one_six(self):
+        self.comboBox.setCurrentIndex(4)
+        self.comboBox_3.setCurrentIndex(4)
+        self.comboBox_5.setCurrentIndex(4)
+        self.comboBox_7.setCurrentIndex(3)
+        self.comboBox_9.setCurrentIndex(3)
+        self.comboBox_11.setCurrentIndex(2)
+        self.comboBox_13.setCurrentIndex(2)
+        self.comboBox_15.setCurrentIndex(2)          
 
     def sgpa_one_seven(self):
         self.comboBox.setCurrentIndex(4)
@@ -2157,7 +2187,7 @@ class Ui_MainWindow(object):
         self.comboBox_39.setCurrentIndex(2)
         self.comboBox_41.setCurrentIndex(1)
 
-    def sgpa_two_five_and_six(self):
+    def sgpa_two_five(self):
         self.comboBox_25.setCurrentIndex(3)
         self.comboBox_27.setCurrentIndex(4)
         self.comboBox_29.setCurrentIndex(4)
@@ -2167,6 +2197,16 @@ class Ui_MainWindow(object):
         self.comboBox_37.setCurrentIndex(2)
         self.comboBox_39.setCurrentIndex(2)
         self.comboBox_41.setCurrentIndex(1)
+
+    def sgpa_two_six(self):
+        self.comboBox_25.setCurrentIndex(4)
+        self.comboBox_27.setCurrentIndex(4)
+        self.comboBox_29.setCurrentIndex(4)
+        self.comboBox_31.setCurrentIndex(3)
+        self.comboBox_33.setCurrentIndex(3)
+        self.comboBox_35.setCurrentIndex(2)
+        self.comboBox_37.setCurrentIndex(2)
+        self.comboBox_39.setCurrentIndex(2)
 
     def sgpa_two_seven(self):
         self.comboBox_25.setCurrentIndex(4)
@@ -2717,7 +2757,6 @@ class Ui_MainWindow(object):
         ci_earned.append(ci_e_7)
         calculate_cgpa(self)
 
- # final cgpa calculation from sum of ci*gi / sum of ci(earned)
 def calculate_cgpa(self):
     try:
 
@@ -2732,7 +2771,6 @@ def calculate_cgpa(self):
         msg.setWindowTitle("Error")
         msg.exec_() 
 
- #cgpa with grades part - 01
 def calculate_cgpa_with_grades(self, lcdNumber_1):
     sum_of_ci_gi = 0
     sum_of_credits_earned = sum(credits_earned)
@@ -2758,7 +2796,7 @@ def calculate_cgpa_with_grades(self, lcdNumber_1):
                 msg.exec_()       
 
 
-# check that the grade is a valid or not
+
 def check_grade(self, grade):
     if(grade!=0):
         if(grade<11):
@@ -2790,7 +2828,6 @@ def marks_to_grades():
                 elif(marks<40):
                         grade_points.append(0)
 
-                        
 def calculate_with_grades(self, lcdNumber):
     sum_sgpa = 0
     sum_of_credits = sum(credits)
