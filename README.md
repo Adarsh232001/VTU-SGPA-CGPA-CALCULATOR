@@ -60,7 +60,7 @@ Tools used:- [QT5](https://doc.qt.io/qt-5/), [Pyinstaller](https://www.pyinstall
 ```sh
 git clone https://github.com/Adarsh232001/VTU-SGPA-CGPA-CALCULATOR.git
 ```
-2. [Contact me](https://github.com/Adarsh232001) for the .exe(executable) file.
+2. Download the [.exe(executable)](https://github.com/Adarsh232001/VTU-SGPA-CGPA-CALCULATOR/releases/tag/v1.0) file from the realease.
 
 ## Usage
 
