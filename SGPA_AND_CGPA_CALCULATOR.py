@@ -1,7 +1,6 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 import webbrowser
-import os
 
 grade_points = []
 credits = []
@@ -2020,7 +2019,6 @@ class Ui_MainWindow(object):
         self.pushButton_38.clicked.connect(self. sgpa_two_seven)
         self.pushButton_33.clicked.connect(self. sgpa_two_eight)
 
-
     def openlink(self):
             webbrowser.open('https://github.com/Adarsh232001/VTU-SGPA-CALCULATOR')
 
@@ -2342,40 +2340,40 @@ class Ui_MainWindow(object):
     
     #reset the tab
     def clear_2(self):
-            self.spinBox_13.setValue(0)
-            self.spinBox_14.setValue(0)
-            self.spinBox_15.setValue(0)
-            self.spinBox_16.setValue(0)
-            self.spinBox_17.setValue(0)
-            self.spinBox_18.setValue(0)
-            self.spinBox_19.setValue(0)
-            self.spinBox_20.setValue(0)
-            self.spinBox_21.setValue(0)
-            self.spinBox_22.setValue(0)
-            self.spinBox_23.setValue(0)
-            self.spinBox_24.setValue(0)
-            self.spinBox_43.setValue(0)
-            self.spinBox_44.setValue(0)
-            self.spinBox_45.setValue(0)
-            self.comboBox_25.setCurrentIndex(0)
-            self.comboBox_27.setCurrentIndex(0)
-            self.comboBox_29.setCurrentIndex(0)
-            self.comboBox_31.setCurrentIndex(0)
-            self.comboBox_33.setCurrentIndex(0)
-            self.comboBox_35.setCurrentIndex(0)
-            self.comboBox_37.setCurrentIndex(0)
-            self.comboBox_39.setCurrentIndex(0)
-            self.comboBox_41.setCurrentIndex(0)
-            self.comboBox_43.setCurrentIndex(0)
-            self.comboBox_45.setCurrentIndex(0)
-            self.comboBox_47.setCurrentIndex(0)
-            self.comboBox_38.setCurrentIndex(0)
-            self.comboBox_40.setCurrentIndex(0)
-            self.comboBox_42.setCurrentIndex(0)
-            grade_points.clear()
-            credits.clear()
-            total_marks.clear()
-            self.lcdNumber_2.display(0)
+        self.spinBox_13.setValue(0)
+        self.spinBox_14.setValue(0)
+        self.spinBox_15.setValue(0)
+        self.spinBox_16.setValue(0)
+        self.spinBox_17.setValue(0)
+        self.spinBox_18.setValue(0)
+        self.spinBox_19.setValue(0)
+        self.spinBox_20.setValue(0)
+        self.spinBox_21.setValue(0)
+        self.spinBox_22.setValue(0)
+        self.spinBox_23.setValue(0)
+        self.spinBox_24.setValue(0)
+        self.spinBox_43.setValue(0)
+        self.spinBox_44.setValue(0)
+        self.spinBox_45.setValue(0)
+        self.comboBox_25.setCurrentIndex(0)
+        self.comboBox_27.setCurrentIndex(0)
+        self.comboBox_29.setCurrentIndex(0)
+        self.comboBox_31.setCurrentIndex(0)
+        self.comboBox_33.setCurrentIndex(0)
+        self.comboBox_35.setCurrentIndex(0)
+        self.comboBox_37.setCurrentIndex(0)
+        self.comboBox_39.setCurrentIndex(0)
+        self.comboBox_41.setCurrentIndex(0)
+        self.comboBox_43.setCurrentIndex(0)
+        self.comboBox_45.setCurrentIndex(0)
+        self.comboBox_47.setCurrentIndex(0)
+        self.comboBox_38.setCurrentIndex(0)
+        self.comboBox_40.setCurrentIndex(0)
+        self.comboBox_42.setCurrentIndex(0)
+        grade_points.clear()
+        credits.clear()
+        total_marks.clear()
+        self.lcdNumber_2.display(0)
 
     def clear_3(self):
         self.comboBox_46.setCurrentIndex(0)
@@ -2414,7 +2412,6 @@ class Ui_MainWindow(object):
         total_marks.clear()
         self.lcdNumber_6.display(0)
         self.lcdNumber_7.display(0)
-
 
     def clear_4(self):
         self.spinBox_25.setValue(0)
@@ -2474,7 +2471,6 @@ class Ui_MainWindow(object):
         self.lcdNumber_5.display(0)
         cixgi.clear()
         ci_earned.clear()
-
 
     def calculate_1(self):
             credits_0 = int(self.comboBox.currentText())
@@ -2700,7 +2696,6 @@ class Ui_MainWindow(object):
                     credits_earned.append(credits[i])
             calculate_cgpa_with_grades(self, lcdNumber_1)
             
-
     def calculate_4(self):
             lcdNumber_1 = False
             credits_0 = int(self.comboBox_2.currentText())
@@ -2809,7 +2804,6 @@ def clear_comboBox(self, clear):
     for i in clear:
         eval('self.'+i+'.setCurrentIndex(0)')
 
-
 def calculate_cgpa(self):
     try:
 
@@ -2848,8 +2842,6 @@ def calculate_cgpa_with_grades(self, lcdNumber_1):
                 msg.setWindowTitle("Error")
                 msg.exec_()       
 
-
-
 def check_grade(self, grade):
     if(grade!=0):
         if(grade<11):
@@ -2862,7 +2854,6 @@ def check_grade(self, grade):
                 msg.setWindowTitle("Error")
                 msg.exec_()
                 
-
 #convert marks to grades
 def marks_to_grades():
         for marks in total_marks:
@@ -2901,7 +2892,6 @@ def calculate_with_grades(self, lcdNumber):
                 msg.setInformativeText('More information')
                 msg.setWindowTitle("Error")
                 msg.exec_()
-
 
 if __name__ == "__main__":
     import sys
