@@ -2033,6 +2033,8 @@ class Ui_MainWindow(object):
         self.comboBox_12.setCurrentIndex(1)
         self.comboBox_14.setCurrentIndex(1)
         self.comboBox_16.setCurrentIndex(1)
+        clear = ['comboBox_18','comboBox_20','comboBox_22','comboBox_24','comboBox_26','comboBox_28','comboBox_30']
+        clear_comboBox(self, clear)
 
     def one_and_two_(self):
         self.comboBox_46.setCurrentIndex(4)
@@ -2043,6 +2045,8 @@ class Ui_MainWindow(object):
         self.comboBox_53.setCurrentIndex(1)
         self.comboBox_52.setCurrentIndex(1)
         self.comboBox_56.setCurrentIndex(1)
+        clear = ['comboBox_48','comboBox_57','comboBox_50','comboBox_55','comboBox_58','comboBox_59','comboBox_60']
+        clear_comboBox(self, clear)
 
     def three_and_four(self):
         self.comboBox_2.setCurrentIndex(3)
@@ -2054,17 +2058,8 @@ class Ui_MainWindow(object):
         self.comboBox_14.setCurrentIndex(2)
         self.comboBox_16.setCurrentIndex(2)
         self.comboBox_18.setCurrentIndex(1)
-
-    def three_and_four_(self):
-        self.comboBox_46.setCurrentIndex(3)
-        self.comboBox_44.setCurrentIndex(4)
-        self.comboBox_49.setCurrentIndex(3)
-        self.comboBox_54.setCurrentIndex(3)
-        self.comboBox_51.setCurrentIndex(3)
-        self.comboBox_53.setCurrentIndex(3)
-        self.comboBox_52.setCurrentIndex(2)
-        self.comboBox_56.setCurrentIndex(2)
-        self.comboBox_48.setCurrentIndex(1)
+        clear = ['comboBox_20','comboBox_22','comboBox_24','comboBox_26','comboBox_28','comboBox_30']
+        clear_comboBox(self, clear)
 
     def five(self):
         self.comboBox_2.setCurrentIndex(3)
@@ -2076,6 +2071,8 @@ class Ui_MainWindow(object):
         self.comboBox_14.setCurrentIndex(2)
         self.comboBox_16.setCurrentIndex(2)
         self.comboBox_18.setCurrentIndex(1)
+        clear = ['comboBox_20','comboBox_22','comboBox_24','comboBox_26','comboBox_28','comboBox_30']
+        clear_comboBox(self, clear)
 
     def six(self):
         self.comboBox_2.setCurrentIndex(4)
@@ -2086,6 +2083,41 @@ class Ui_MainWindow(object):
         self.comboBox_12.setCurrentIndex(2)
         self.comboBox_14.setCurrentIndex(2)
         self.comboBox_16.setCurrentIndex(2)
+        clear = ['comboBox_18','comboBox_20','comboBox_22','comboBox_24','comboBox_26','comboBox_28','comboBox_30']
+        clear_comboBox(self, clear)
+
+    def cgpa_two_seven(self):
+        self.comboBox_2.setCurrentIndex(4)
+        self.comboBox_4.setCurrentIndex(4)
+        self.comboBox_6.setCurrentIndex(3)
+        self.comboBox_8.setCurrentIndex(3)
+        self.comboBox_10.setCurrentIndex(3)
+        self.comboBox_12.setCurrentIndex(2)
+        self.comboBox_14.setCurrentIndex(1)
+        clear = ['comboBox_16','comboBox_18','comboBox_20','comboBox_22','comboBox_24','comboBox_26','comboBox_28','comboBox_30']
+        clear_comboBox(self, clear)
+
+    def cgpa_two_eight(self):
+        self.comboBox_2.setCurrentIndex(3)
+        self.comboBox_4.setCurrentIndex(3)
+        self.comboBox_6.setCurrentIndex(5)
+        self.comboBox_8.setCurrentIndex(1)
+        self.comboBox_10.setCurrentIndex(3)
+        clear = ['comboBox_12','comboBox_14','comboBox_16','comboBox_18','comboBox_20','comboBox_22','comboBox_24','comboBox_26','comboBox_28','comboBox_30']
+        clear_comboBox(self, clear)
+
+    def three_and_four_(self):
+        self.comboBox_46.setCurrentIndex(3)
+        self.comboBox_44.setCurrentIndex(4)
+        self.comboBox_49.setCurrentIndex(3)
+        self.comboBox_54.setCurrentIndex(3)
+        self.comboBox_51.setCurrentIndex(3)
+        self.comboBox_53.setCurrentIndex(3)
+        self.comboBox_52.setCurrentIndex(2)
+        self.comboBox_56.setCurrentIndex(2)
+        self.comboBox_48.setCurrentIndex(1)
+        clear = ['comboBox_57','comboBox_50','comboBox_55','comboBox_58','comboBox_59','comboBox_60']
+        clear_comboBox(self, clear)
 
     def five_(self):
         self.comboBox_46.setCurrentIndex(3)
@@ -2097,6 +2129,8 @@ class Ui_MainWindow(object):
         self.comboBox_52.setCurrentIndex(2)
         self.comboBox_56.setCurrentIndex(2)
         self.comboBox_48.setCurrentIndex(1)
+        clear = ['comboBox_57','comboBox_50','comboBox_55','comboBox_58','comboBox_59','comboBox_60']
+        clear_comboBox(self, clear)
 
     def six_(self):
         self.comboBox_46.setCurrentIndex(4)
@@ -2107,6 +2141,28 @@ class Ui_MainWindow(object):
         self.comboBox_53.setCurrentIndex(2)
         self.comboBox_52.setCurrentIndex(2)
         self.comboBox_56.setCurrentIndex(2)
+        clear = ['comboBox_48','comboBox_57','comboBox_50','comboBox_55','comboBox_58','comboBox_59','comboBox_60']
+        clear_comboBox(self, clear)
+
+    def cgpa_one_seven(self):
+        self.comboBox_46.setCurrentIndex(4)
+        self.comboBox_44.setCurrentIndex(4)
+        self.comboBox_49.setCurrentIndex(3)
+        self.comboBox_54.setCurrentIndex(3)
+        self.comboBox_51.setCurrentIndex(3)
+        self.comboBox_53.setCurrentIndex(2)
+        self.comboBox_52.setCurrentIndex(1)
+        clear = ['comboBox_56','comboBox_48','comboBox_57','comboBox_50','comboBox_55','comboBox_58','comboBox_59','comboBox_60']
+        clear_comboBox(self, clear)
+
+    def cgpa_one_eight(self):
+        self.comboBox_46.setCurrentIndex(3)
+        self.comboBox_44.setCurrentIndex(3)
+        self.comboBox_49.setCurrentIndex(5)
+        self.comboBox_54.setCurrentIndex(1)
+        self.comboBox_51.setCurrentIndex(3)
+        clear = ['comboBox_53','comboBox_52','comboBox_56','comboBox_48','comboBox_57','comboBox_50','comboBox_55','comboBox_58','comboBox_59','comboBox_60']
+        clear_comboBox(self, clear)
 
     def sgpa_one_one_and_two(self):
         self.comboBox.setCurrentIndex(4)
@@ -2117,6 +2173,8 @@ class Ui_MainWindow(object):
         self.comboBox_11.setCurrentIndex(1)
         self.comboBox_13.setCurrentIndex(1)
         self.comboBox_15.setCurrentIndex(1)
+        clear = ['comboBox_17','comboBox_19','comboBox_21','comboBox_23','comboBox_32','comboBox_34','comboBox_36']
+        clear_comboBox(self, clear)
 
     def sgpa_one_three_and_four(self):
         self.comboBox.setCurrentIndex(3)
@@ -2128,6 +2186,8 @@ class Ui_MainWindow(object):
         self.comboBox_13.setCurrentIndex(2)
         self.comboBox_15.setCurrentIndex(2)
         self.comboBox_17.setCurrentIndex(1)
+        clear = ['comboBox_19','comboBox_21','comboBox_23','comboBox_32','comboBox_34','comboBox_36']
+        clear_comboBox(self, clear)
 
     def sgpa_one_five(self):
         self.comboBox.setCurrentIndex(3)
@@ -2139,6 +2199,8 @@ class Ui_MainWindow(object):
         self.comboBox_13.setCurrentIndex(2)
         self.comboBox_15.setCurrentIndex(2)
         self.comboBox_17.setCurrentIndex(1) 
+        clear = ['comboBox_19','comboBox_21','comboBox_23','comboBox_32','comboBox_34','comboBox_36']
+        clear_comboBox(self, clear)
 
     def sgpa_one_six(self):
         self.comboBox.setCurrentIndex(4)
@@ -2148,7 +2210,9 @@ class Ui_MainWindow(object):
         self.comboBox_9.setCurrentIndex(3)
         self.comboBox_11.setCurrentIndex(2)
         self.comboBox_13.setCurrentIndex(2)
-        self.comboBox_15.setCurrentIndex(2)          
+        self.comboBox_15.setCurrentIndex(2)
+        clear = ['comboBox_17','comboBox_19','comboBox_21','comboBox_23','comboBox_32','comboBox_34','comboBox_36']
+        clear_comboBox(self, clear)          
 
     def sgpa_one_seven(self):
         self.comboBox.setCurrentIndex(4)
@@ -2158,13 +2222,17 @@ class Ui_MainWindow(object):
         self.comboBox_9.setCurrentIndex(3)
         self.comboBox_11.setCurrentIndex(2)
         self.comboBox_13.setCurrentIndex(1)
+        clear = ['comboBox_15','comboBox_17','comboBox_19','comboBox_21','comboBox_23','comboBox_32','comboBox_34','comboBox_36']
+        clear_comboBox(self, clear)
 
     def sgpa_one_eight(self):
         self.comboBox.setCurrentIndex(3)
         self.comboBox_3.setCurrentIndex(3)
         self.comboBox_5.setCurrentIndex(5)
         self.comboBox_7.setCurrentIndex(1)
-        self.comboBox_9.setCurrentIndex(3)            
+        self.comboBox_9.setCurrentIndex(3)   
+        clear = ['comboBox_11','comboBox_13','comboBox_15','comboBox_17','comboBox_19','comboBox_21','comboBox_23','comboBox_32','comboBox_34','comboBox_36']
+        clear_comboBox(self, clear)         
 
     def sgpa_two_one_and_two(self):
         self.comboBox_25.setCurrentIndex(4)
@@ -2174,7 +2242,9 @@ class Ui_MainWindow(object):
         self.comboBox_33.setCurrentIndex(3)
         self.comboBox_35.setCurrentIndex(1)
         self.comboBox_37.setCurrentIndex(1)
-        self.comboBox_39.setCurrentIndex(1)           
+        self.comboBox_39.setCurrentIndex(1)    
+        clear = ['comboBox_41','comboBox_43','comboBox_45','comboBox_47','comboBox_38','comboBox_40','comboBox_42'] 
+        clear_comboBox(self, clear)      
 
     def sgpa_two_three_and_four(self):
         self.comboBox_25.setCurrentIndex(3)
@@ -2186,6 +2256,8 @@ class Ui_MainWindow(object):
         self.comboBox_37.setCurrentIndex(2)
         self.comboBox_39.setCurrentIndex(2)
         self.comboBox_41.setCurrentIndex(1)
+        clear = ['comboBox_43','comboBox_45','comboBox_47','comboBox_38','comboBox_40','comboBox_42'] 
+        clear_comboBox(self, clear)
 
     def sgpa_two_five(self):
         self.comboBox_25.setCurrentIndex(3)
@@ -2197,6 +2269,8 @@ class Ui_MainWindow(object):
         self.comboBox_37.setCurrentIndex(2)
         self.comboBox_39.setCurrentIndex(2)
         self.comboBox_41.setCurrentIndex(1)
+        clear = ['comboBox_43','comboBox_45','comboBox_47','comboBox_38','comboBox_40','comboBox_42'] 
+        clear_comboBox(self, clear)
 
     def sgpa_two_six(self):
         self.comboBox_25.setCurrentIndex(4)
@@ -2207,6 +2281,8 @@ class Ui_MainWindow(object):
         self.comboBox_35.setCurrentIndex(2)
         self.comboBox_37.setCurrentIndex(2)
         self.comboBox_39.setCurrentIndex(2)
+        clear = ['comboBox_41','comboBox_43','comboBox_45','comboBox_47','comboBox_38','comboBox_40','comboBox_42'] 
+        clear_comboBox(self, clear)  
 
     def sgpa_two_seven(self):
         self.comboBox_25.setCurrentIndex(4)
@@ -2216,6 +2292,8 @@ class Ui_MainWindow(object):
         self.comboBox_33.setCurrentIndex(3)
         self.comboBox_35.setCurrentIndex(2)
         self.comboBox_37.setCurrentIndex(1)
+        clear = ['comboBox_39','comboBox_41','comboBox_43','comboBox_45','comboBox_47','comboBox_38','comboBox_40','comboBox_42'] 
+        clear_comboBox(self, clear)  
 
     def sgpa_two_eight(self):
         self.comboBox_25.setCurrentIndex(3)
@@ -2223,38 +2301,8 @@ class Ui_MainWindow(object):
         self.comboBox_29.setCurrentIndex(5)
         self.comboBox_31.setCurrentIndex(1)
         self.comboBox_33.setCurrentIndex(3)
-
-    def cgpa_one_seven(self):
-        self.comboBox_46.setCurrentIndex(4)
-        self.comboBox_44.setCurrentIndex(4)
-        self.comboBox_49.setCurrentIndex(3)
-        self.comboBox_54.setCurrentIndex(3)
-        self.comboBox_51.setCurrentIndex(3)
-        self.comboBox_53.setCurrentIndex(2)
-        self.comboBox_52.setCurrentIndex(1)
-
-    def cgpa_one_eight(self):
-        self.comboBox_46.setCurrentIndex(3)
-        self.comboBox_44.setCurrentIndex(3)
-        self.comboBox_49.setCurrentIndex(5)
-        self.comboBox_54.setCurrentIndex(1)
-        self.comboBox_51.setCurrentIndex(3)
-
-    def cgpa_two_seven(self):
-        self.comboBox_2.setCurrentIndex(4)
-        self.comboBox_4.setCurrentIndex(4)
-        self.comboBox_6.setCurrentIndex(3)
-        self.comboBox_8.setCurrentIndex(3)
-        self.comboBox_10.setCurrentIndex(3)
-        self.comboBox_12.setCurrentIndex(2)
-        self.comboBox_14.setCurrentIndex(1)
-
-    def cgpa_two_eight(self):
-        self.comboBox_2.setCurrentIndex(3)
-        self.comboBox_4.setCurrentIndex(3)
-        self.comboBox_6.setCurrentIndex(5)
-        self.comboBox_8.setCurrentIndex(1)
-        self.comboBox_10.setCurrentIndex(3)
+        clear = ['comboBox_35','comboBox_37','comboBox_39','comboBox_41','comboBox_43','comboBox_45','comboBox_47','comboBox_38','comboBox_40','comboBox_42'] 
+        clear_comboBox(self, clear)
 
     def clear_1(self):
         self.comboBox.setCurrentIndex(0)
@@ -2756,6 +2804,11 @@ class Ui_MainWindow(object):
         ci_e_7 = self.spinBox_61.value()
         ci_earned.append(ci_e_7)
         calculate_cgpa(self)
+
+def clear_comboBox(self, clear):
+    for i in clear:
+        eval('self.'+i+'.setCurrentIndex(0)')
+
 
 def calculate_cgpa(self):
     try:
